@@ -180,3 +180,12 @@ a.cancel-button {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.like-button {
+  float: none;
+  float: none;
+  background-color: white;
+  color: red;
+  font-size: xx-large;
+  border: none;
+  width: 3px;
+}
