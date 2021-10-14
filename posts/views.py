@@ -26,7 +26,7 @@ def index(request):
             # No, Show Error
             return HttpResponseRedirect(form.erros.as_json())
 
-    posts = Post.objects.all()[:20]
+    posts = Post.objects.all().order_by('-created_at')[:20]
     return render(request, 'post.html', {'posts': posts, 'form': form})
 
 
