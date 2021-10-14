@@ -139,9 +139,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 cloudinary.config(
-    cloud_name="drf8taizj",
-    api_key="424744525569865",
-    api_secret="XG7Gjqgb_Ob4BSyqQoAxFHK0ECw",
+    cloud_name="dxxt0fhlz",
+    api_key="541361799257351",
+    api_secret="S_QpK3Reb4defi1dc-Hm6oWYQnk",
     secure=True,
 )
 
